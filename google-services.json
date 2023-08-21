@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "279467563338",
+    "firebase_url": "https://animal-adoption-fa203-default-rtdb.firebaseio.com",
+    "project_id": "animal-adoption-fa203",
+    "storage_bucket": "animal-adoption-fa203.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:279467563338:android:e99e11be88d19b34fac9b3",
+        "android_client_info": {
+          "package_name": "com.example.animaladoption"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "279467563338-hrhctp0dak6nokkfdk65hgcccib1gftk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGKs5kttvu2vwyMbcnOGAgtHCnpWYYnBc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "279467563338-hrhctp0dak6nokkfdk65hgcccib1gftk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:279467563338:android:c1416b04f5a3c2ccfac9b3",
+        "android_client_info": {
+          "package_name": "com.example.animaladoptionapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "279467563338-hrhctp0dak6nokkfdk65hgcccib1gftk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGKs5kttvu2vwyMbcnOGAgtHCnpWYYnBc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "279467563338-hrhctp0dak6nokkfdk65hgcccib1gftk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

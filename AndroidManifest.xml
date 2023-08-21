@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/imglogo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/imglogo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AnimalAdoptionApp"
+        tools:targetApi="31">
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDghno7tZR6g62RNp88I78TOpPI_zL31ew" />
+
+        <activity
+            android:name=".UserPickupLocation"
+            android:exported="false" />
+        <activity
+            android:name=".UserCodSuccess"
+            android:exported="false" />
+        <activity
+            android:name=".UserPickup"
+            android:exported="false" />
+        <activity
+            android:name=".UserCod"
+            android:exported="false" />
+        <activity
+            android:name=".UserAdopt"
+            android:exported="false" />
+        <activity
+            android:name=".UserListAnimalDetails"
+            android:exported="false" />
+        <activity
+            android:name=".AdminAddAnimalDetails"
+            android:exported="false" />
+        <activity
+            android:name=".AdminAddAnimal"
+            android:exported="false" />
+        <activity
+            android:name=".UserProfileUpdate"
+            android:exported="false" />
+        <activity
+            android:name=".UserProfile"
+            android:exported="false" />
+        <activity
+            android:name=".UserFavourite"
+            android:exported="false" />
+        <activity
+            android:name=".UserFeedback"
+            android:exported="false" />
+        <activity
+            android:name=".UserRegister"
+            android:exported="false" />
+        <activity
+            android:name=".UserDashboard"
+            android:exported="false" />
+        <activity
+            android:name=".AdminDashboard"
+            android:exported="false" />
+        <activity
+            android:name=".UserLogin"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

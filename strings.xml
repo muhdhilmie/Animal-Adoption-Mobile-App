@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Animal Adoption App</string>
+
+    <array name="sexPet">
+        <item>Female</item>
+        <item>Male</item>
+    </array>
+
+    <array name="agePet">
+        <item>Years</item>
+        <item>Month</item>
+    </array>
+
+</resources>
